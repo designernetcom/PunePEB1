@@ -4479,7 +4479,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .page-contact-us{
-    padding: 100px 0;
+    padding: 25px 0;
 	background: url(../images/about-us-bg.svg) no-repeat;
     background-position: bottom left;
     background-size: auto;
@@ -4796,7 +4796,7 @@ header.main-header .header-sticky.active{
 	}
 
 	.about-us{
-		padding: 50px 0;
+		padding: 32px 0;
 		background-size: 50% auto;
 	}
 
