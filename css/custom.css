@@ -383,12 +383,12 @@ body{
 
 .section-row{
 	position: relative;
-	margin-bottom: 80px;
+	margin-bottom: 40px;
 	z-index: 1;
 }
 
 .section-row .section-title{
-	margin-bottom: 0;
+	margin: 45px 0 0px 0;
 }
 
 .section-title-content{
@@ -444,7 +444,7 @@ body{
 }
 
 .section-title h2{
-	font-size: 50px;
+	font-size: 47px;
 	font-weight: 300;
 	line-height: 1.2em;
 	letter-spacing: -0.01em;
@@ -508,7 +508,7 @@ body{
 
 .topbar-contact-info ul li{
 	display: inline-block;
-	margin-right: 15px;
+	margin-right: 30px;
 }
 
 .topbar-contact-info ul li:last-child{
@@ -584,7 +584,7 @@ header.main-header .header-sticky.active{
 .navbar {
     padding: 10px 0px;
     align-items: center;
-    background: rgba(0, 0, 0, 0.744); /* Default for desktop */
+    background: #222222; 
 }
 
 /* Mobile view (screens up to 767px wide) */
@@ -1013,7 +1013,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .about-us{
-	padding: 100px 0;
+	padding: 60px 0;
 	background: url('../images/about-us-bg.svg') no-repeat;
 	background-position: bottom left;
 	background-size: auto;
@@ -1166,7 +1166,7 @@ header.main-header .header-sticky.active{
 .our-services{
 	position: relative;
 	padding: 100px 0 280px;
-	background: url('https://images.pexels.com/photos/1320737/pexels-photo-1320737.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center;
+	background: url('../images/projects/big-storehouse-with-construction-materials-inside-wholesale\ \(2\).jpg') no-repeat center center;
 	background-size: cover;
 }
 
@@ -1276,7 +1276,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .our-story{
-	padding: 60px 0;
+	padding: 50px 0px 90px 0;
 }
 
 .our-story-header-img{
@@ -1315,8 +1315,8 @@ header.main-header .header-sticky.active{
 
 .our-story-content-body{
 	border-bottom: 1px solid var(--divider-color);
-	margin-bottom: 60px;
-	padding-bottom: 60px;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
 }
 
 .our-story-content-body p:last-child{
@@ -1549,7 +1549,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .our-work{
-	padding: 100px 0 60px;
+	padding: 60px 0 60px;
 }
 
 .our-Project-nav{
@@ -1683,7 +1683,7 @@ header.main-header .header-sticky.active{
 
 .our-process{
 	background: var(--secondary-color);
-	padding: 100px 0;
+	padding: 30px 0;
 }
 
 .our-process-image{
@@ -2402,7 +2402,7 @@ header.main-header .header-sticky.active{
 
 .mission-vision-bg{
 	position: relative;
-	background: url('https://images.pexels.com/photos/1320737/pexels-photo-1320737.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+	background: url('../images/projects/big-storehouse-with-construction-materials-inside-wholesale\ \(2\).jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -2658,7 +2658,7 @@ header.main-header .header-sticky.active{
 }
 
 .our-features{
-	padding: 100px 0;
+	padding: 0px 0px 100px   0;
 }
 
 .our-features-boxes{
@@ -4576,7 +4576,7 @@ header.main-header .header-sticky.active{
 	font-weight: 400;
     background-color: var(--white-color);
     color: var(--text-color);
-	border: 1px solid var(--divider-color);
+	border: 1px solid rgb(180, 179, 179);
     border-radius: 10px;
     outline: none;
     box-shadow: none;
@@ -4735,6 +4735,7 @@ header.main-header .header-sticky.active{
 	}
 
 	.section-title{
+		margin-top: 30px;
 		margin-bottom: 30px;
 	}
 
@@ -6088,7 +6089,7 @@ header.main-header .header-sticky.active{
 		display: grid;
 		justify-content: center;
         font-size: 16px;
-        padding: 10px;
+        padding: 17px;
     }
 
 	.mission-vision-nav ul li .nav-link img{

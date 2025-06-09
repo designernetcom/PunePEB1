@@ -3,15 +3,10 @@
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 150;
+	z-index: 0;
 	contain: layout style size;
-	pointer-events: none;
-	will-change: transform;
-	-webkit-transition: opacity 0.3s, color 0.4s;
-	-o-transition: opacity 0.3s, color 0.4s;
-	-moz-transition: opacity 0.3s, color 0.4s;
-	transition: opacity 0.3s, color 0.4s;
-}
+	
+	
 
 .cb-cursor:before {
 	content: "";
@@ -291,7 +286,7 @@
 	line-height: 150%;
 }
 
-.cb-demo-item:before {
+/* .cb-demo-item:before {
 	content: "";
 	display: block;
 	position: absolute;
@@ -309,4 +304,4 @@
 	-moz-transition: box-shadow 0.2s, -moz-box-shadow 0.2s;
 	transition: box-shadow 0.2s;
 	transition: box-shadow 0.2s, -webkit-box-shadow 0.2s, -moz-box-shadow 0.2s;
-}
+} */
