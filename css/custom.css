@@ -1013,7 +1013,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .about-us{
-	padding: 60px 0;
+	padding: 80px 0;
 	background: url('../images/about-us-bg.svg') no-repeat;
 	background-position: bottom left;
 	background-size: auto;
@@ -2332,13 +2332,13 @@ header.main-header .header-sticky.active{
 
 .page-header{
 	position: relative;
-	background: url('../images/projects/pexels-rezwan-1145434.jpg') no-repeat center center;
+	background: url('../peb\ b\ 3.png') no-repeat center center;
 	
-	background-size: cover;
-	padding: 150px 0;
+	background-size: contain !important;
+	padding: 160px 0;
 }
 
-.page-header::before{
+/* .page-header::before{
 	content: '';
     display: block;
     position: absolute;
@@ -2350,7 +2350,7 @@ header.main-header .header-sticky.active{
     width: 100%;
     height: 100%;
     z-index: 0;
-}
+} */
 
 .page-header-box{
 	position: relative;
@@ -4796,7 +4796,7 @@ header.main-header .header-sticky.active{
 	}
 
 	.about-us{
-		padding: 32px 0;
+		padding: 0px 0px 32px 0;
 		background-size: 50% auto;
 	}
 
@@ -5172,7 +5172,7 @@ header.main-header .header-sticky.active{
 	}
 
 	.page-header{
-		padding: 80px 0;
+		padding: 60px 0;
 	}
 
 	.page-header-box h1{
@@ -5704,7 +5704,7 @@ header.main-header .header-sticky.active{
 	}	
 
 	.page-contact-us{
-		padding: 50px 0;
+		padding: 0px 0;
 		background-size: 50% auto;
 	}
 
@@ -5795,7 +5795,7 @@ header.main-header .header-sticky.active{
     }
 
 	.section-title h2{
-        font-size: 28px;
+        font-size: 24px;
     }
 
 	.excellence-innovating-list ul{
